@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 50%;
+    background-color: lightblue;
+    padding: 15px;
+}
+.intro > img{
+    height: 20rem;
+    width: 100%;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+}
+.input_field > input {
+    height: 2rem;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    border: none;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(https://th.bing.com/th/id/OIP.mbVNY3P5JKSbtA6gZ7swpwHaE8?pid=ImgDet&rs=1);
+        }
+    </style>
+    <main>
+        <div class="intro">
+            <img src="https://th.bing.com/th/id/R.fdff743079750146cf9b7bdbfb2b55d6?rik=qJvHQDlWzQQLTA&pid=ImgRaw&r=0" alt="cover photo" />
+            <div>
+                <h2>Latest Gaming App</h2>
+                <p>Welcome to Codust, a comprehensive coding tutorial that will take you on a journey to master Git, GitHub, HTML, CSS, JavaScript, and React Js! In today's interconnected world, these technologies play a vital role in shaping the digital landscape. Whether you're a beginner eager to explore the foundations of coding or an experienced developer looking to enhance your skills, Codust is here to guide you every step of the way. Through hands-on exercises, real-world examples, and practical projects, you'll gain the knowledge and confidence to navigate version control, build responsive webpages, create engaging user interfaces, and collaborate effectively with other developers. Get ready to ignite your passion for coding and unlock a world of possibilities with Codust!</p>
+            </div>
+            <div>    
+                <form action="">
+                    <div class="input_field">
+                        <label for="fullname">Fullname</label>
+                        <input type="text" name="fullname" placeholder="Enter your name" onchange="return onFullNameChangeHandler(event)">
+                    </div>
+    
+                    <div class="input_field">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="Enter your Email" onchange="return emailChangeHandler(event)">
+                    </div>
+    
+                    <div class="input_field">
+                        <label for="phoneNumber">Phone number</label>
+                        <input type="text" name="phone number" placeholder="Enter your phone number" onchange="return phoneNumberChangeHandler(event)">
+                    </div>
+    
+                    <div class="input_field">
+                        <label for="dob">Date Of Birth</label>
+                        <input type="date" name="dob" placeholder="Enter your dob" onchange="return dobChangeHandler(event)">
+                    </div>
+    
+                    <div class="input_field">
+                        <label for="gender">Gender</label>
+                        <select onchange="return maleFemaleOthersChangeHandler(event)">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <br>
+                    <button type="summit">summit</button>
+                    <br>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <img src="https://th.bing.com/th/id/R.c8522ca2e764cdac2f842be557a275ef?rik=Ip16KfoBeK22vQ&pid=ImgRaw&r=0" alt="">
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
